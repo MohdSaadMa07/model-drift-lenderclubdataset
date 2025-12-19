@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the saved pipeline
-pipeline = joblib.load('loan_rf_pipeline.pkl')
+pipeline = joblib.load("models/loan_rf_pipeline.pkl")
 
 
 features = ['loan_amnt', 'installment', 'int_rate', 'annual_inc', 'emp_length',
